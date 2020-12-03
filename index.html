@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script type="module" defer src="src/js/controller.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <title>Converter App</title>
+  </head>
+
+  <body>
+    <div class="converter">
+      <div class="converter__title"><h1 class="title">Convert your currency</h1></div>
+     <form action="#" class="converter__form">
+     <input
+     type="number"
+     class="converter__amount"
+     placeholder="Amount"
+   />
+   <div class="converter__from">FROM
+      <select name="currencies" id="currencies" class="converter__option_from">
+
+
+  </select></div>
+  <div class="converter__to">TO
+    <select name="currencies" id="currencies" class="converter__option_to">
+
+
+</select>
+<input type="submit" value="submit" class="converter__submit">
+</div>
+
+<div class="converter__finalAmount">
+  <div class="converter__myCurrency"> <span class="myCurrency"></span></div>
+  <div class="converter__yourCurrency"> <span class="yourCurrency"></span> </div>
+</div>
+  </form>
+  <div></div>
+    </div>
+  </body>
+</html>
